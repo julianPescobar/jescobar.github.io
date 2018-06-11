@@ -117,7 +117,7 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #F0F0F0;
+  background: #DFDFDF;
   border-top: 10px solid #700770;
   border-radius: 0px 0px 20px 20px;
   -webkit-box-shadow: 0px 0px 20px 5px #000000;
@@ -177,7 +177,7 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #DADADA;
+  background: #F0F0F0;
   padding: 30px;
   border-radius: 20px;
 }
