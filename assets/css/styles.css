@@ -10,7 +10,7 @@
 body {
   font-family: 'Roboto', arial, sans-serif;
   color: #434343;
-  background: #707070;
+  background: #909090;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -117,8 +117,8 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #505050;
-  border-top: 10px solid #303030;
+  background: #DFDFDF;
+  border-top: 10px solid #700770;
   border-radius: 0px 0px 20px 20px;
   -webkit-box-shadow: 0px 0px 20px 5px #000000;
       -moz-box-shadow: 0px 0px 20px 5px #000000;
