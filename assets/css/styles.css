@@ -177,7 +177,7 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #D0D0D0;
+  background: #DADADA;
   padding: 30px;
   border-radius: 20px;
 }
@@ -372,7 +372,7 @@ iframe {
   margin-bottom: 10;
 }
 .skills .skillset .level-title .level-label {
-  color: #ccd1d6;
+  color: #505050;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
