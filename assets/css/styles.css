@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -8,7 +8,7 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: 'Roboto', arial, sans-serif;
   color: #434343;
   background: #DAE3E7;
   font-size: 16px;
@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans';
+  font-weight: 800;
   color: #778492;
 }
 a {
@@ -46,7 +46,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'Open Sans', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -135,7 +135,7 @@ iframe {
 }
 .header .profile-content .desc {
   color: #778492;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Open Sans", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -173,7 +173,7 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #fff;
+  background: #FFFFFF;
   padding: 30px;
 }
 .section .heading {
@@ -246,7 +246,7 @@ iframe {
   overflow: hidden;
 }
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -424,7 +424,7 @@ iframe {
   margin-top: 0;
 }
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Roboto", arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
@@ -542,4 +542,61 @@ iframe {
   .container {
     width: 1360px;
   }
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
