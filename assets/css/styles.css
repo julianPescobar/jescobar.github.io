@@ -119,6 +119,10 @@ iframe {
   padding: 30px 0;
   background: #505050;
   border-top: 10px solid #303030;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-box-shadow: 0px 0px 20px 5px #000000;
+      -moz-box-shadow: 0px 0px 20px 5px #000000;
+           box-shadow: 0px 0px 20px 5px #000000;
 }
 .header .btn {
   margin-top: 60px;
@@ -175,6 +179,7 @@ iframe {
 .section .section-inner {
   background: #D0D0D0;
   padding: 30px;
+  border-radius: 20px;
 }
 .section .heading {
   margin-top: 0;
