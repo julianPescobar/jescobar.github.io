@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Juego Julian</title>
+
+</head>
+<body>
+  <div id="game" style="border-color: black; border-style: solid"   ></div>
+      <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+      <script>
+      Crafty.load([
+        "gfx/terrain/grass1.png"
+      ]);
+
+        Crafty.init(500,350, document.getElementById('game'));
+        Crafty.sprite("gfx/terrain/grass1.png", {grass:[0,0,25,25]});
+var flower_entity = Crafty.e("2D, DOM, grass");
+
+        Crafty.e('2D, DOM, grass, Fourway')
+  .attr({x: 0, y: 0, w: 25, h: 25})
+  .fourway(100)
+      </script>
+</body>
+</html>
